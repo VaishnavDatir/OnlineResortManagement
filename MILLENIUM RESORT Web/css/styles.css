@@ -232,6 +232,159 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 
+/* Meet Celeb */
+
+#meet-celeb {
+  background-color: #000;
+  padding-top: 80px;
+  padding-bottom: 100px;
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+}
+
+
+@media (min-width: 768px){
+.col-md-4 {
+    flex: 0 0 43.3333%;
+    max-width: 43.3333%;
+    
+}
+}
+
+@media (min-width: 768px){
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+}
+
+.meet-celeb-box {
+  margin-bottom: 30px;
+}
+
+.meet-celeb-box,
+.meet-img {
+    margin-top: 0px;
+}
+
+.meet-img {
+  overflow: hidden;
+}
+
+.small-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+#meet-celeb .small-title {
+  padding-left: 0px;
+  margin-left: auto;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.meet-celeb-para {
+  padding: 0 20px;
+}
+
+#meet-celeb .comman-container {
+  width: 870px;
+  max-width: 100%;
+  font-family: Montserrat, sans-serif !important;
+   margin-right: auto;
+  margin-left: auto;
+}
+
+.hos20 {
+  color: #fff;
+  
+  position: relative;
+  letter-spacing: 1px;
+}
+.hos20::after {
+  content: "";
+  height: 1.5px;
+  width: 20%;
+  background-color: #FFD700;
+  position: absolute;
+  top: 110%;
+  left: 40%;
+  bottom: 0px;
+}
+
+.mt-40 {
+  margin-top: 60px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.gold-bor-right {
+  border-right: 1px solid rgb(184, 146, 65);
+}
+
+.mb-4, .my-4 {
+  margin-bottom: 0rem !important;
+}
+
+.meet-img a {
+  transition: all 1s cubic-bezier(0, 0, 0.23, 1) 0s;
+  display: block;
+}
+a {
+  text-decoration: none !important;
+}
+
+
+.meet-celeb-box h2,
+    .meet-celeb-box p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .meet-celeb-box a.cta-bt {
+        margin-left: 20px;
+    }
+
+.meet-celeb-box .cta-bt {
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.meet-celeb-box h2 {
+  margin-bottom: 5px;
+}
+
+.cta-bt {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 3px 30px;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 32px;
+  overflow: hidden;
+  display: inline-block;
+  margin-top: 20px;
+  position: relative;
+  border: 1px solid rgb(0, 0, 0);
+  letter-spacing: 2px;
+}
+.cta-bt span {
+  position: relative;
+  z-index: 2;
+}
+
+.order-1 {
+  order: 1;
+}
+
 /* Adventure Park */
 
 #adventure-park .comman-container {
@@ -289,16 +442,12 @@ element.style {
   animation-name: fadeInUp;
 }
 
-.fadeInUp {
-  -webkit-animation-name: fadeInUp;
-  animation-name: fadeInUp;
-}
-
 .wow {
   visibility: visible;
 }
 
 .adventure-park-lhs {
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   padding-top: 90px;
 }
@@ -333,34 +482,11 @@ img {
   text-decoration: none;
 }
 
-.cta-bt:before {
-  content: '';
-  display: block;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  height: 100%;
-  width: 0;
-  background-color: #dca761;
-  transition: width 0s ease, background .4s ease;
-}
-
 .cta-bt span {
   position: relative;
   z-index: 2;
 }
 
-.cta-bt:after {
-  content: '';
-  display: block;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 100%;
-  width: 0;
-  background: #dca761;
-  transition: width .4s ease;
-}
 
 
 /* Footer */
@@ -370,6 +496,7 @@ img {
   color: #fff;
   padding: 30px 90px;
   margin-top: 100px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .r {
