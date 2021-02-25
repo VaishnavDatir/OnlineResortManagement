@@ -5,6 +5,7 @@ html {
 
 body {
   overflow: overlay;
+
   margin: 0px;
   font-size: 1rem;
     font-weight: 400;
@@ -39,6 +40,7 @@ body {
     z-index: 1;
     padding: 6px;
     margin: auto;
+    padding: 5px 0 12px 15px;
 }
 
 .nav-link1{
@@ -73,6 +75,8 @@ body {
   text-decoration: none;
   text-align: right;
   position: relative;
+  padding: 5px 10px;
+  border-radius: 3px;
 }
 
 
@@ -80,7 +84,7 @@ body {
 
 #title{
   background-image: url(../images/nat1.jpg);
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.438);
   background-blend-mode: overlay;
   background-size: cover;
   height: 100vh;
@@ -233,8 +237,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 #footer {
   background-color: #000;
   color: #fff;
-  padding-top: 60px;
-  padding-bottom: 80px;
+  padding: 40px 80px;
   margin-top: 100px;
 }
 
@@ -265,6 +268,10 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 .footerlogo img {
   width: 80px;
+}
+
+.left, .center{
+    margin-right: 200px;
 }
 
 .footer-links a {
